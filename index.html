@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thư Mời Tham Dự Lễ Tốt Nghiệp - Đỗ Thị Quỳnh Trang</title>
+
+<!-- Google Fonts: Be Vietnam Pro & Playfair Display -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,500&family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NỀN GRADIENT + ÁNH SÁNG BAY ============ -->
+  <div class="bg-gradient"></div>
+  <div class="floating-lights">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span>
+  </div>
+  <div class="graduation-fall" aria-hidden="true">
+    <span>🎓</span><span>📜</span><span>🎓</span><span>📜</span>
+    <span>🎓</span><span>📜</span><span>🎓</span><span>📜</span>
+  </div>
+
+  <!-- ============ 1. HERO SECTION ============ -->
+  <section id="hero" class="section hero">
+    <div class="hero-orb hero-orb-one"></div>
+    <div class="hero-orb hero-orb-two"></div>
+    <div class="hero-spark hero-spark-one">✦</div>
+    <div class="hero-spark hero-spark-two">✦</div>
+    <div class="hero-content fade-in">
+      <p class="hero-subtitle">TRÂN TRỌNG KÍNH MỜI</p>
+      <p class="hero-date">15 · 08 · 2026</p>
+      <h1 class="hero-title">THƯ MỜI THAM DỰ</h1>
+      <h2 class="hero-title-sub">LỄ TỐT NGHIỆP</h2>
+      <div class="divider"><span></span><i>❖</i><span></span></div>
+      <p class="hero-name-label">Tân cử nhân</p>
+      <p class="hero-name">ĐỖ THỊ QUỲNH TRANG</p>
+      <button class="btn-primary" id="btnXemThu">Xem thư mời</button>
+    </div>
+    <div class="scroll-hint">
+      <span>Cuộn xuống</span>
+      <div class="mouse"><div class="wheel"></div></div>
+    </div>
+  </section>
+
+  <!-- ============ 2. GIỚI THIỆU ============ -->
+  <section id="gioithieu" class="section">
+    <div class="container">
+      <h3 class="section-title slide-up">Lời Mời</h3>
+      <div class="glass-card topic-card slide-up">
+        <p class="topic-text">
+          "Sau bao nỗ lực và cố gắng trên hành trình học tập, em Trang đã hoàn thành chương trình đào tạo và chuẩn bị bước vào Lễ tốt nghiệp - dấu mốc quan trọng của cuộc đời."
+        </p>
+      </div>
+
+      <div class="invite-text slide-up">
+        <p>
+          Kính mời Quý Thầy/Cô, gia đình, bạn bè và người thân đến tham dự Lễ tốt nghiệp của em.
+        </p>
+        <p>
+          Sự hiện diện của mọi người là niềm vinh dự và nguồn động viên to lớn đối với em.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. THÔNG TIN BUỔI LỄ ============ -->
+  <section id="thongtin" class="section alt-bg">
+    <div class="container">
+      <h3 class="section-title slide-up">Thông Tin Buổi Lễ</h3>
+      <div class="info-grid">
+
+        <!-- Chỉnh sửa nội dung từng thẻ tại đây -->
+        <div class="glass-card info-card slide-up">
+          <div class="info-icon">📅</div>
+          <h4>Ngày</h4>
+          <p>Thứ Bảy, 15/08/2026</p>
+        </div>
+
+        <div class="glass-card info-card slide-up">
+          <div class="info-icon">🕘</div>
+          <h4>Thời gian</h4>
+          <p>08:00 - 11:00 sáng</p>
+        </div>
+
+        <div class="glass-card info-card slide-up">
+          <div class="info-icon">📍</div>
+          <h4>Địa điểm</h4>
+          <p>Hội trường T45<br>Trường Đại học Thủy Lợi</p>
+        </div>
+
+        <div class="glass-card info-card slide-up">
+          <div class="info-icon">🎓</div>
+          <h4>Ngành học</h4>
+          <p>Công nghệ Thông tin<br>Khóa 2022 - 2026</p>
+        </div>
+
+        <!-- <div class="glass-card info-card slide-up">
+          <div class="info-icon">🏫</div>
+          <h4>Trường</h4>
+          <p>Trường Đại học Thủy Lợi<br>Khoa Công nghệ Thông tin</p>
+        </div> -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. ĐỒNG HỒ ĐẾM NGƯỢC ============ -->
+  <section id="countdown" class="section">
+    <div class="container">
+      <h3 class="section-title slide-up">Đếm Ngược Đến Ngày Tốt Nghiệp</h3>
+
+      <!-- Cấu hình ngày giờ lễ trong script.js (biến targetDate) -->
+      <div class="countdown-wrapper slide-up" id="countdownWrapper">
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-days">00</span>
+          <span class="countdown-label">Ngày</span>
+        </div>
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-hours">00</span>
+          <span class="countdown-label">Giờ</span>
+        </div>
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-minutes">00</span>
+          <span class="countdown-label">Phút</span>
+        </div>
+        <div class="countdown-box">
+          <span class="countdown-number" id="cd-seconds">00</span>
+          <span class="countdown-label">Giây</span>
+        </div>
+      </div>
+      <p class="countdown-started" id="countdownStarted" style="display:none;">Lễ tốt nghiệp đã bắt đầu.</p>
+    </div>
+  </section>
+
+  <!-- ============ 5. TIMELINE ============ -->
+  <section id="timeline" class="section alt-bg">
+    <div class="container">
+      <h3 class="section-title slide-up">Chương Trình Buổi Lễ</h3>
+
+      <div class="timeline">
+        <div class="timeline-item slide-up">
+          <div class="timeline-icon">🚪</div>
+          <div class="timeline-content glass-card">
+            <h4>Đón khách</h4>
+            <p>08:00 - 08:15</p>
+          </div>
+        </div>
+
+        <div class="timeline-item slide-up">
+          <div class="timeline-icon">🎤</div>
+          <div class="timeline-content glass-card">
+            <h4>Khai mạc</h4>
+            <p>08:15 - 08:30</p>
+          </div>
+        </div>
+
+        <div class="timeline-item slide-up">
+          <div class="timeline-icon">🎓</div>
+          <div class="timeline-content glass-card">
+            <h4>Trao bằng tốt nghiệp</h4>
+            <p>08:30 - 09:30</p>
+          </div>
+        </div>
+
+        <div class="timeline-item slide-up">
+          <div class="timeline-icon">🎙️</div>
+          <div class="timeline-content glass-card">
+            <h4>Phát biểu cảm nghĩ</h4>
+            <p>09:30 - 10:00</p>
+          </div>
+        </div>
+
+        <div class="timeline-item slide-up">
+          <div class="timeline-icon">🎉</div>
+          <div class="timeline-content glass-card">
+            <h4>Bế mạc</h4>
+            <p>10:00 - 10:30</p>
+          </div>
+        </div>
+
+        <div class="timeline-item slide-up">
+          <div class="timeline-icon">📸</div>
+          <div class="timeline-content glass-card">
+            <h4>Chụp ảnh lưu niệm</h4>
+            <p>10:30 - 11:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. GALLERY ============ -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h3 class="section-title slide-up">Hình Ảnh Kỷ Niệm</h3>
+      <p class="gallery-note slide-up">Những khoảnh khắc đáng nhớ trong ngày lễ tốt nghiệp</p>
+
+      <!-- <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item slide-up"><img src="images/gallery-1.jpg" alt="Ảnh kỷ niệm 1" onerror="this.parentElement.classList.add('no-img')"></div>
+        <div class="gallery-item slide-up"><img src="images/gallery-2.jpg" alt="Ảnh kỷ niệm 2" onerror="this.parentElement.classList.add('no-img')"></div>
+        <div class="gallery-item slide-up"><img src="images/gallery-3.jpg" alt="Ảnh kỷ niệm 3" onerror="this.parentElement.classList.add('no-img')"></div>
+        <div class="gallery-item slide-up"><img src="images/gallery-4.jpg" alt="Ảnh kỷ niệm 4" onerror="this.parentElement.classList.add('no-img')"></div>
+        <div class="gallery-item slide-up"><img src="images/gallery-5.jpg" alt="Ảnh kỷ niệm 5" onerror="this.parentElement.classList.add('no-img')"></div>
+        <div class="gallery-item slide-up"><img src="images/gallery-6.jpg" alt="Ảnh kỷ niệm 6" onerror="this.parentElement.classList.add('no-img')"></div>
+      </div> -->
+      <p class="gallery-drive-link slide-up">
+        <a class="btn-secondary" href="https://drive.google.com/drive/folders/1HvUoY6WyBvlhS_57fv4JdS1eY2xjCWT-?usp=sharing" target="_blank" rel="noopener">Xem toàn bộ ảnh trên Google Drive</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Lightbox phóng to ảnh -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lightboxClose">&times;</span>
+    <img src="" alt="Xem ảnh lớn" id="lightboxImg">
+  </div>
+
+  <!-- ============ 7. ĐỊA ĐIỂM ============ -->
+  <section id="diadiem" class="section alt-bg">
+    <div class="container">
+      <h3 class="section-title slide-up">Địa Điểm Tổ Chức</h3>
+      <div class="glass-card map-card slide-up">
+        <!-- Thay src bằng link Google Maps embed của địa điểm thực tế -->
+        <iframe
+          src="https://www.google.com/maps?q=Tr%C6%B0%E1%BB%9Dng%20%C4%90%E1%BA%A1i%20h%E1%BB%8Dc%20Th%E1%BB%A7y%20L%E1%BB%A3i&output=embed"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="Bản đồ địa điểm tổ chức lễ tốt nghiệp">
+        </iframe>
+        <a class="btn-secondary" href="https://www.google.com/maps/search/?api=1&query=Truong+Dai+Hoc+Thuy+Loi" target="_blank" rel="noopener">
+          Xem đường đi
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. LIÊN HỆ ============ -->
+  <section id="lienhe" class="section">
+    <div class="container">
+      <h3 class="section-title slide-up">Thông Tin Liên Hệ</h3>
+      <div class="glass-card contact-card slide-up">
+        <div class="contact-item">
+          <span class="contact-icon">🙋‍♀️</span>
+          <div>
+            <h5>Họ tên</h5>
+            <p>Đỗ Thị Quỳnh Trang</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <h5>Email</h5>
+            <p><a href="mailto:quynhtrang@example.com">tq98001@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div>
+            <h5>Số điện thoại</h5>
+            <p><a href="tel:0900000000">0868148221</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">📘</span>
+          <div>
+            <h5>Facebook</h5>
+            <p><a href="https://facebook.com/" target="_blank" rel="noopener">https://www.facebook.com/chang.chang.768293/</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9. FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-thanks">Xin chân thành cảm ơn!</p>
+      <p class="footer-sub">Rất mong được đón tiếp Quý Thầy/Cô, gia đình và bạn bè trong Lễ tốt nghiệp.</p>
+      <div class="divider small"><span></span><i>❖</i><span></span></div>
+      <p class="footer-copy">&copy; 2026 Đỗ Thị Quỳnh Trang.</p>
+    </div>
+  </footer>
+
+  <!-- Nút back-to-top -->
+  <button id="backToTop" class="back-to-top" aria-label="Lên đầu trang">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
